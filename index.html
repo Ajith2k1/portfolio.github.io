@@ -168,11 +168,11 @@
  <section id="contact" class="contact-section">
     <div class="contact-form">
         <h2>Contact Me</h2>
-        <form id="contactForm">
-            <input type="text" id="name" placeholder="Full Name*" required>
-            <input type="email" id="email" placeholder="Email*" required>
-            <input type="text" id="subject" placeholder="Subject">
-            <textarea id="message" placeholder="Your Message*" required></textarea>
+        <form id="contactForm" action="https://formspree.io/f/xovdkqed" method="post">
+            <input type="text" id="name" name="full_name" placeholder="Full Name*" required>
+            <input type="email" id="email" name="email" placeholder="Email*" required>
+            <input type="text" id="subject" name="subject" placeholder="Subject">
+            <textarea id="message" name="message" placeholder="Your Message*" required></textarea>
             <button type="submit">Send Message</button>
         </form>
     </div>
